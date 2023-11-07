@@ -17,6 +17,7 @@ export default function Sidebar() {
         alt="profile"
       />
       <div>
+        
         <SidebarButton title="Feed" to="/feed" icon={<MdSpaceDashboard/>}/>
         <SidebarButton title="Trending" to="/trending" icon={<FaGripfire/>}/>
         <SidebarButton title="Player" to="/player" icon={<FaPlay/>}/>
